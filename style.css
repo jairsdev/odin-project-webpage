@@ -76,6 +76,9 @@ header {
 
 .content-one h1 {
     text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+
 }
 
 .images {
@@ -83,11 +86,15 @@ header {
     display: flex;
     gap: 48px;
     justify-content: center;
+    color: #1f2937;
 }
 
 
 .image {
     flex: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .image img {
