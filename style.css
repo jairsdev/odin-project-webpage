@@ -48,7 +48,7 @@ header {
     gap: 48px;
 }
 
-.text {
+ header .text {
     flex: 1;
 }
 
@@ -68,4 +68,31 @@ header {
 .header-text img {
     flex: 1;
     height: 300px;
+}
+
+.content-one {
+    margin: 60px 0 120px;
+}
+
+.content-one h1 {
+    text-align: center;
+}
+
+.images {
+    margin-top: 60px;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+
+.image {
+    flex: none;
+}
+
+.image img {
+    height: 300px;
+    width: 300px;
+    border: solid #3882f6 5px;
+    border-radius: 10px;
 }
