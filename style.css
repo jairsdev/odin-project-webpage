@@ -3,12 +3,15 @@ body {
 }
 
 .sign-up {
+    box-sizing: content-box;
     color: white;
-    background-color: rgb(85, 85, 235);
+    background-color: #3882f6;
     border-radius: 5px;
     border: none;
     font-size: 18px;
     padding: 8px 32px;
+    width: 62px;
+    height: 21px;
 }
 
 header, footer {
@@ -21,7 +24,7 @@ header {
     padding-bottom: 140px;
 }
 
-.container {
+header .container {
     display: flex;
     flex-direction: column;
     gap: 128px;
@@ -111,6 +114,7 @@ header {
 
 .image p {
     width: 250px;
+    margin-top: 10px;
     font-size: 18px;
     text-align: justify;
 }
@@ -131,4 +135,37 @@ header {
     font-weight: 900;
     text-align: end;
 }
+
+.content-three {
+    padding: 90px 180px;
+}
+
+.content-three .container {
+    display: flex;
+    padding: 50px 180px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #3882f6;
+}
+
+.text {
+    color: #e5e7eb;
+}
+
+.text p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.text h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.content-three .sign-up {
+    margin-left: auto;
+    border: #f9faf8 solid 2.5px;
+}
+
 
