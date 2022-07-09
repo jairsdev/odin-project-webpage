@@ -78,6 +78,10 @@ header .container {
     height: 300px;
 }
 
+.header-text .sign-up {
+    margin-top: 15px;
+}
+
 .content-one {
     margin: 60px 0 120px;
 }
@@ -168,4 +172,9 @@ header .container {
     border: #f9faf8 solid 2.5px;
 }
 
+footer {
+    color: #e5e7eb;
+    text-align: center;
+    padding: 32px;
+}
 
