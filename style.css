@@ -17,9 +17,14 @@ header, footer {
 
 header {
     display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+
+.container {
+    display: flex;
     flex-direction: column;
-    padding: 0px 180px 90px;
-    gap: 32px;
+    gap: 128px;
 }
 
 .header-logo {
